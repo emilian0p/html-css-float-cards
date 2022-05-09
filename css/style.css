@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header h1{
+    color: #e53170;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+a{
+    text-decoration: none;
+    color: #17ccf2;
+}
+header,main{
+   margin: auto;
+   max-width: 80%;
+}
+
+
+header{
+    text-align: center;
+    padding: 40px;
+}
+
+.contenitore {
+    margin: 0 auto;
+}
+
+.biglietto{
+    background-color: #0f0e17;
+    width: calc(100% / 3 - 20px);
+    float:left;
+    margin: 20px 10px;
+}
+
+
+.biglietto img{
+    width: 100px;
+    float: left;
+}
+
+.info-biglietto{
+    padding: 2px;
+    color: whitesmoke;
+    float: left;
+    width:calc( 100% - 100px) ;
+}
+
+.info-carta>p {
+    padding:5px;
+    margin:0 20px 0 20px;
+}
+
+.nome{
+    font-size: 20px;
+}
